@@ -14,18 +14,6 @@
   width:100%;
   background-color: #6CB2D1;
 }
-
-.left-header {
-  float: left;
-}
-
-.center-header {
-  flex:1;
-}
-
-.right-header {
-}
-
 .icon {
   color: white;
 }
@@ -55,15 +43,6 @@
   padding: 5px 25px 10px 25px;
   max-width: 22%;
 }
-.add-movies {
-  text-align: center;
-}
-
-.add-movies button {
-  font-size: 16px;
-  padding: 8px;
-  margin: 0 10px 30px 10px;
-}
 
 .errorMessage {
   margin: auto;
@@ -71,30 +50,11 @@
   color: rgb(161, 15, 15);
 }
 
-
 .search {
   margin-top: 25px;
   margin-left: 20%;
   margin-right: auto;
 }
-
-
-input[type="submit"] {
-  padding: 5px;
-  background-color: transparent;
-  color: black;
-  border: 1px solid black;
-  width: 80px;
-  margin-left: 5px;
-  cursor: pointer;
-}
-
-
-input[type="submit"]:hover {
-  background-color: #282c34;
-  color: antiquewhite;
-}
-
 
 .search > input[type="text"]{
   width: 40%;
